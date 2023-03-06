@@ -1,0 +1,3 @@
+playstation 5,600,1
+xbox series X,500,2
+switch,300,3

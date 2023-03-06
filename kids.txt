@@ -1,0 +1,3 @@
+toy car,150,1
+big robot toy,20,2
+toy train,300,3

@@ -1,0 +1,45 @@
+<div class="item">
+        <img src = "img\7300_1_05.jpg" class = "item_img">
+        <h1 class="item_text" >swing<br> costs : 50$</h1>
+        <button type="button" class="item_but">Place order</button>
+
+       </div>
+       <div class="item">
+        <img src = "img\7300_1_05.jpg" class = "item_img">
+        <h1 class="item_text" >swing<br> costs : 50$</h1>
+        <button type="button" class="item_but">Place order</button>
+
+       </div>
+       <div class="item">
+        <img src = "img\7300_1_05.jpg" class = "item_img">
+        <h1 class="item_text" >swing<br> costs : 50$</h1>
+        <button type="button" class="item_but">Place order</button>
+
+       </div>
+       <div class="item">
+        <img src = "img\7300_1_05.jpg" class = "item_img">
+        <h1 class="item_text" >swing<br> costs : 50$</h1>
+        <button type="button" class="item_but">Place order</button>
+
+       </div>
+
+
+
+
+let dev = document.createElement('div')
+    dev.className='item'
+    let txt = document.createElement('h1')
+    txt.innerText="toy one \n cost=20$"
+    txt.className = 'item_text'
+    let button = document.createElement('button')
+    button.setAttribute('type','button')
+    button.className='item_but'
+    button.innerText='place order'
+    let img = document.createElement('img')
+    img.setAttribute('src','img\\baby1.jpg')
+    img.className='item_img'
+    dev.appendChild(img)
+    dev.appendChild(txt)
+    dev.appendChild(button)
+    console.log(dev)
+    main.appendChild(dev)
